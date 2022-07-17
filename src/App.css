@@ -1,4 +1,91 @@
-.App {
+main{
+  width: 90%;
+  margin: 0 auto;
+}
+.App-header nav{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+}
+.App-header nav .logo{
+  cursor: pointer;
+}
+.App-header nav ul{
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.App-header nav ul li a{
+  color: hsla(0, 0%, 53%, 1);
+  text-decoration: none;
+}
+.App-header nav ul li a button{
+  background: transparent;
+  border: 1.5px solid hsla(0, 0%, 53%, 1);
+  padding: .5rem 2rem;
+  border-radius: .5rem;
+  color: hsla(0, 0%, 53%, 1);
+  cursor: pointer;
+  transition: .5s ease;
+}
+.App-header nav ul li a button:hover{
+  border: 1.5px solid rgba(135, 135, 135, 0.4);
+  transform: scale(1.1);
+}
+.section1{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  background-image: url(../src/section1bg.svg);
+  background-repeat: no-repeat;
+  background-position: right 150%;
+}
+.section1-text{
+  margin-top: 2rem;
+}
+.section1-firstParagraph{
+  width: 65%;
+  font-size: 3rem;
+  color: hsla(266, 47%, 9%, 1);
+}
+.section1-secondParagraph{
+  color: hsla(0, 0%, 53%, 1);
+  font-size: 1.2rem;
+  width: 70%;
+  padding-top: 1rem;
+  line-height: 1.7;
+}
+.section1-img img{
+  width: 100%;
+}
+.getstarted-btn button{
+  padding: 1rem 4rem;
+  border: none;
+  background-color: hsla(266, 47%, 9%, 1);
+  color: white;
+  border-radius: .4rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+.getstarted-btn button:hover{
+  background-color: transparent;
+  border: 1px solid hsla(266, 47%, 9%, 1);
+  color: hsla(266, 47%, 9%, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +122,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
