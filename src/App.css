@@ -74,7 +74,40 @@ main{
   border: 1px solid hsla(266, 47%, 9%, 1);
   color: hsla(266, 47%, 9%, 1);
 }
-
+.section2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  margin-top: 3rem;
+}
+.section2 .img{
+  transition: .4s ease;
+}
+.section2 .img:hover{
+  transform: scale(1.1);
+}
+.section2 .img img{
+  width: 100%;
+}
+.section3{
+  margin-top: 5rem;
+}
+.employees{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.employeeImg{
+  transition: .4s ease;
+}
+.employees .employeeImg:hover{
+  transform: scale(1.1);
+}
+.woman{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 
 
